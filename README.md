@@ -4,4 +4,5 @@ A repository containing code for top-m example subsets selection for in-context 
 learn to identfy top-m subsets based on LLM feedback as rewards.
 
 # Setup
-1. Install ollama. 
+1. Install ollama.
+2. pull llama3.2:3b ```ollama pull llama3.2:3b```
