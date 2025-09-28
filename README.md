@@ -15,3 +15,11 @@ Run
 ```
 python3 Code/evaluation/eval_wmt19.py
 ```
+
+
+
+# To reproduce AQUA numbers in Table 1 (evaluation part only):
+Run
+```
+python3 Code/evaluation/eval_aqua.py
+```
