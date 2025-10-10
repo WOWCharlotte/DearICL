@@ -23,3 +23,9 @@ Run
 ```
 python3 Code/evaluation/eval_aqua.py
 ```
+
+# To reproduce GSM8K numbers in Table 1 (evaluation part only):
+Run
+```
+python3 Code/evaluation/eval_gsm8k.py
+```
