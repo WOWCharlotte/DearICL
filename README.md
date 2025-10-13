@@ -29,3 +29,10 @@ Run
 ```
 python3 Code/evaluation/eval_gsm8k.py
 ```
+
+# To run the bandit algorithms from scratch 
+For Aqua-RAT run:
+
+``` 
+python3 Code/bandit_run/GRASS_aqua_final_ICLR.py
+```
