@@ -34,5 +34,5 @@ python3 Code/evaluation/eval_gsm8k.py
 For Aqua-RAT run:
 
 ``` 
-python3 Code/bandit_run/GRASS_aqua_final_ICLR.py
+python3 Code/bandit_run/Sealr_aqua_final_ICLR.py
 ```
