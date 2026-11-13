@@ -1,0 +1,27 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local datasets and generated experiment artifacts
+/data/
+/output/
+*.arrow
+*.parquet
+
+# Model weights and checkpoints
+/models/
+/weights/
+/checkpoints/
+/runs/
+/logs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
