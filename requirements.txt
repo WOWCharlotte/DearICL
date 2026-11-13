@@ -1,0 +1,13 @@
+# Python 3.12 development dependencies for DearICL.
+# Reuse an existing CUDA-enabled PyTorch installation if available.
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.4
+tqdm>=4.66
+tenacity>=8.2
+ollama>=0.4
+bert-score>=0.3.13
+transformers>=4.40
+datasets>=3.0
+
+# NOTE: The code imports a custom `ltr` module that is not distributed here.

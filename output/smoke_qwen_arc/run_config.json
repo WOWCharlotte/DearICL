@@ -1,0 +1,14 @@
+{
+  "dataset": "arc_challenge",
+  "model_path": "/home/model/Qwen2.5-7B-Instruct",
+  "method": "dearicl_4shot",
+  "shots": 4,
+  "candidates": 4,
+  "clusters": 4,
+  "validation_size": 5,
+  "seed": 42,
+  "max_new_tokens": 16,
+  "train_size": 1119,
+  "validation_full_size": 299,
+  "test_size": 4
+}

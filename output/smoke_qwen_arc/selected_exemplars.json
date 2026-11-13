@@ -1,0 +1,86 @@
+{
+  "Mercury_7175875": {
+    "candidate_id": 0,
+    "candidate_scores": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "train_indices": [
+      108,
+      488,
+      698,
+      887
+    ],
+    "exemplar_ids": [
+      "TIMSS_2003_8_pg27",
+      "Mercury_SC_400698",
+      "Mercury_7013545",
+      "TIMSS_2003_4_pg27"
+    ]
+  },
+  "Mercury_SC_409171": {
+    "candidate_id": 0,
+    "candidate_scores": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "train_indices": [
+      108,
+      488,
+      698,
+      887
+    ],
+    "exemplar_ids": [
+      "TIMSS_2003_8_pg27",
+      "Mercury_SC_400698",
+      "Mercury_7013545",
+      "TIMSS_2003_4_pg27"
+    ]
+  },
+  "Mercury_SC_408547": {
+    "candidate_id": 0,
+    "candidate_scores": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "train_indices": [
+      108,
+      488,
+      698,
+      887
+    ],
+    "exemplar_ids": [
+      "TIMSS_2003_8_pg27",
+      "Mercury_SC_400698",
+      "Mercury_7013545",
+      "TIMSS_2003_4_pg27"
+    ]
+  },
+  "Mercury_407327": {
+    "candidate_id": 0,
+    "candidate_scores": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "train_indices": [
+      108,
+      488,
+      698,
+      887
+    ],
+    "exemplar_ids": [
+      "TIMSS_2003_8_pg27",
+      "Mercury_SC_400698",
+      "Mercury_7013545",
+      "TIMSS_2003_4_pg27"
+    ]
+  }
+}

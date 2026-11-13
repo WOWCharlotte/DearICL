@@ -1,0 +1,5 @@
+dataset,model,test_samples,accuracy,weighted_f1,offline_train_time_s,online_retrieval_time_s,run_time_s,invalid_count,output_dir
+ARC-C,Qwen2.5-7B-Instruct,1172,0.8976109215017065,0.8975838440422463,163.0058889940001,102.14044870999987,265.14633770399996,0,output/arc_challenge_qwen2.5_dearicl_4shot
+OpenBookQA,Qwen2.5-7B-Instruct,500,0.874,0.873716203214173,151.21123682599955,39.28292230699935,190.4941591329989,0,output/openbookqa_qwen2.5_dearicl_4shot
+ARC-C,Llama3-8B,1172,0.6791808873720137,0.6822564111395835,172.43072035800014,98.28497216300002,270.71569252100016,0,output/arc_challenge_llama3_dearicl_4shot
+OpenBookQA,Llama3-8B,500,0.676,0.6770745815150521,139.9057848700004,38.66312480000033,178.56890967000072,0,output/openbookqa_llama3_dearicl_4shot

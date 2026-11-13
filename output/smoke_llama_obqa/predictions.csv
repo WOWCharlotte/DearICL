@@ -1,0 +1,5 @@
+id,question,ground_truth,prediction,correct,raw_output,selected_candidate,latency_ms
+8-343,"A person wants to start saving money so that they can afford a nice vacation at the end of the year. After looking over their budget and expenses, they decide the best way to save money is to",B,B,1,B,0,91.044
+1129,There is most likely going to be fog around:,A,A,1,A,0,72.206
+880,Predators eat,C,B,0,B,0,77.225
+7-999,"Oak tree seeds are planted and a sidewalk is paved right next to that spot, until eventually, the tree is tall and the roots must extend past the sidewalk, which means",C,A,0,A,0,85.122
