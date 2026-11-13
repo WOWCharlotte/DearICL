@@ -1,0 +1,14 @@
+{
+  "dataset": "openbookqa",
+  "model_path": "/home/model/Qwen2.5-7B-Instruct",
+  "method": "dearicl_4shot",
+  "shots": 4,
+  "candidates": 20,
+  "clusters": 4,
+  "validation_size": 100,
+  "seed": 42,
+  "max_new_tokens": 16,
+  "train_size": 4957,
+  "validation_full_size": 500,
+  "test_size": 500
+}

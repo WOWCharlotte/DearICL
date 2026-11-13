@@ -1,0 +1,64 @@
+{
+  "dataset": "arc_challenge",
+  "model_path": "/home/model/Qwen2.5-7B-Instruct",
+  "method": "dearicl_4shot",
+  "seed": 42,
+  "test_samples": 4,
+  "accuracy": 1.0,
+  "weighted_f1": 1.0,
+  "run_time_s": 10.50718100100039,
+  "offline_train_time_s": 9.904290630000105,
+  "online_retrieval_time_s": 0.6028903710002851,
+  "avg_latency_ms": 150.2974530001211,
+  "p95_latency_ms": 291.50283435055815,
+  "invalid_count": 0,
+  "candidate_validation_accuracy": {
+    "0": 0.8,
+    "1": 0.8,
+    "2": 0.8,
+    "3": 0.8
+  },
+  "candidate_indices": {
+    "0": [
+      108,
+      488,
+      698,
+      887
+    ],
+    "1": [
+      92,
+      510,
+      777,
+      990
+    ],
+    "2": [
+      107,
+      267,
+      568,
+      1089
+    ],
+    "3": [
+      761,
+      844,
+      870,
+      877
+    ]
+  },
+  "ranker_mode": "global_best_validation_candidate",
+  "fallback_candidate": 0,
+  "rank_loss_history": [],
+  "config": {
+    "dataset": "arc_challenge",
+    "model_path": "/home/model/Qwen2.5-7B-Instruct",
+    "method": "dearicl_4shot",
+    "shots": 4,
+    "candidates": 4,
+    "clusters": 4,
+    "validation_size": 5,
+    "seed": 42,
+    "max_new_tokens": 16,
+    "train_size": 1119,
+    "validation_full_size": 299,
+    "test_size": 4
+  }
+}

@@ -1,0 +1,4 @@
+{"candidate_id": 0, "indices": [364, 2404, 3047, 3921], "rewards": [1, 1, 1, 0, 0], "predictions": ["A", "B", "C", "A", "B"], "responses": ["A", "B", "C", "A", "B"], "validation_accuracy": 0.6}
+{"candidate_id": 1, "indices": [381, 1914, 3803, 4341], "rewards": [1, 1, 1, 0, 0], "predictions": ["A", "B", "C", "A", "B"], "responses": ["A", "B", "C", "A", "B"], "validation_accuracy": 0.6}
+{"candidate_id": 2, "indices": [564, 814, 2457, 4887], "rewards": [1, 1, 1, 0, 0], "predictions": ["A", "B", "C", "A", "B"], "responses": ["A", "B", "C", "A", "B"], "validation_accuracy": 0.6}
+{"candidate_id": 3, "indices": [3329, 3373, 3884, 4236], "rewards": [1, 1, 1, 0, 0], "predictions": ["A", "B", "C", "A", "B"], "responses": ["A", "B", "C", "A", "B"], "validation_accuracy": 0.6}

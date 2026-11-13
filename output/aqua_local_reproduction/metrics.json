@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "method": "Reduced AQuA ICL: stratified candidate exemplar subsets; local causal LM generation; local roberta-large BERTScore reward; best subset evaluated on held-out AQuA dev.",
+  "generator_model": "/home/model/Qwen2.5-7B-Instruct",
+  "scorer_model": "/home/model/roberta-large",
+  "seed": 7,
+  "train_pool_size": 256,
+  "validation_size": 8,
+  "test_size": 254,
+  "candidate_count": 4,
+  "shots": 5,
+  "selected_candidate": 2,
+  "selected_indices": [
+    45,
+    59,
+    27,
+    46,
+    103
+  ],
+  "selected_validation_bertscore_f1": 0.8804452270269394,
+  "selected_validation_accuracy": 0.375,
+  "test_matches": 105,
+  "test_accuracy": 0.41338582677165353,
+  "elapsed_seconds": 493.0222132205963,
+  "selected_exemplars": [
+    {
+      "question": "Two pipes A and B can fill a tank in 4 and 5 hours respectively. If they are turned up alternately for one hour each, the time taken to fill the tank is?",
+      "options": "['A)4 hrs 29 min', 'B)4 hrs 24 min', 'C)4 hrs 84 min', 'D)3 hrs 24 min', 'E)7 hrs 24 min']",
+      "rationale": "1/4 + 1/5 = 9/20\n20/9 = 2 2/9\n9/20 * 2 = 9/10 ---- 4 hours\nWR = 1 - 9/10 = 1/10\n1 h ---- 1/4\n? ----- 1/10\n2/5 * 60 = 24 = 4 hrs 24 min\nAnswer:B",
+      "correct": "B"
+    },
+    {
+      "question": "If x and y are non-zero integers, and 64x^4 – 4y^4 = 8x^2 + 2y^2, which of the following could be the value of x2 in terms of y?",
+      "options": "['A)2y^2', 'B)2y', 'C)2y^2/8', 'D)2y^2-1/8', 'E)2y^2+1/8']",
+      "rationale": "64x^4 – 4y^4 = 8x^2 + 2y^2\n(8x^2 + 2y^2) (8x^2 - 2y^2) = 8x^2 + 2y^2\n8x^2 - 2y^2 = 1\n8x^2 = 2y^2+1\nx^2 = 2y^2+1/8\nAnswer : E",
+      "correct": "E"
+    },
+    {
+      "question": "Ramu bought an old car for Rs. 42000. He spent Rs. 13000 on repairs and sold it for Rs. 64900. What is his profit percent?",
+      "options": "['A)16%', 'B)88%', 'C)18%', 'D)14%', 'E)28%']",
+      "rationale": "Total CP = Rs. 42000 + Rs. 13000\n= Rs. 55000 and SP\n= Rs. 64900\nProfit(%) = (64900 - 55000)/55000 * 100\n= 18%\nAnswer:C",
+      "correct": "C"
+    },
+    {
+      "question": "W=√[2√63 + 2/(8+3√7)] =",
+      "options": "['A)8 + 3√7', 'B)4 + 3√7', 'C)8', 'D)4', 'E)√7']",
+      "rationale": "In these type of question u multiply the nominator and denominator with conjugate...Conjugate of 8 +3sqrt(7) is 8 -3sqrt(7)\nsqrt[2sqrt(63) + 2 { 8 - 3sqrt(7)}/{64 - 63}]\nW=sqrt[2sqrt(63) +16 - 2sqrt(63)] =4\nAnswer is 4.D",
+      "correct": "D"
+    },
+    {
+      "question": "Find the area of circle whose radius is 5m?",
+      "options": "['A)113.1', 'B)154', 'C)288', 'D)280', 'E)371']",
+      "rationale": "22/7 * 5 * 5\n= 113.1\nAnswer:A",
+      "correct": "A"
+    }
+  ],
+  "bypasses": [
+    "Ollama runtime replaced with local Transformers generation",
+    "custom ltr/RankNet training bypassed with validation-reward subset selection",
+    "truncated precomputed AQuA embeddings bypassed with direct tokenized prompts"
+  ]
+}

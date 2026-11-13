@@ -1,0 +1,64 @@
+{
+  "dataset": "openbookqa",
+  "model_path": "/home/model/Meta-Llama-3-8B",
+  "method": "dearicl_4shot",
+  "seed": 42,
+  "test_samples": 4,
+  "accuracy": 0.5,
+  "weighted_f1": 0.3333333333333333,
+  "run_time_s": 15.941874412999823,
+  "offline_train_time_s": 15.615152026999567,
+  "online_retrieval_time_s": 0.32672238600025594,
+  "avg_latency_ms": 81.39913999980308,
+  "p95_latency_ms": 90.15530909996414,
+  "invalid_count": 0,
+  "candidate_validation_accuracy": {
+    "0": 0.6,
+    "1": 0.6,
+    "2": 0.6,
+    "3": 0.6
+  },
+  "candidate_indices": {
+    "0": [
+      364,
+      2404,
+      3047,
+      3921
+    ],
+    "1": [
+      381,
+      1914,
+      3803,
+      4341
+    ],
+    "2": [
+      564,
+      814,
+      2457,
+      4887
+    ],
+    "3": [
+      3329,
+      3373,
+      3884,
+      4236
+    ]
+  },
+  "ranker_mode": "global_best_validation_candidate",
+  "fallback_candidate": 0,
+  "rank_loss_history": [],
+  "config": {
+    "dataset": "openbookqa",
+    "model_path": "/home/model/Meta-Llama-3-8B",
+    "method": "dearicl_4shot",
+    "shots": 4,
+    "candidates": 4,
+    "clusters": 4,
+    "validation_size": 5,
+    "seed": 42,
+    "max_new_tokens": 16,
+    "train_size": 4957,
+    "validation_full_size": 500,
+    "test_size": 4
+  }
+}

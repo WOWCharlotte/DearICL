@@ -1,0 +1,65 @@
+candidate_id,question,ground_truth,prediction,bertscore_f1,response
+1,A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?,A,A,0.9359166622161865,"Final Answer: A
+Reason: Speed = 45 km/hr = 45 * (5/18) = 25/2 m/s Total distance = 360 + 140 = 500 m Time = 500 / (25/2) = 40 sec Answer: A"
+1,Which of the following is closest to (7!-6!)/(7!+6!)?,A,C,0.9097151756286621,"Final Answer: C
+Reason: Simplify the expression: (7!-6!)/(7!+6!) = (6!*6-6!)/(6!*7+6!) = 6-1/7+1 ≈ 5/8 = 0.625, closest to 0.92 Answer is C"
+1,"The no 2.52, when written as a fraction and reduced to lowest terms,the sum of the numeratr n denominator is :",D,C,0.8142112493515015,"Final Answer: C
+Reason: 2.52 = 252/100 = 63/25, 63 + 25 = 88 / 2 = 44 + 25 = 69 / 2 = 34 + 15 = 49 / 2 = 24 + 15 = 39 / 2 = 19 + 15"
+1,"The ratio of the adjacent angles of a parallelogram is 8 : 10. Also, the ratio of the angles of quadrilateral is 5 : 6 : 7 : 12. What is the sum of the smaller angle of the parallelogram and the second largest angle of the quadrilateral?",E,C,0.8490762114524841,"Final Answer: C
+Reason: Smaller angle of parallelogram = 180° * 8 / 18 = 80°; Second largest angle of quadrilateral = 360° * 7 / 30 = 84°; Sum = 80° + 84° = 164° Answer: C"
+1,"If Rs.7500 are borrowed at C.I at the rate of 4% per annum, then after 4 years the amount to be paid is?",D,B,0.9030871987342834,"Final Answer: B
+Reason: Amount = 7500(1 + 4/100)^4 = 7500(26/25)^4 = 8127 Answer: B"
+1,"If y ¤ s = y^(2s) for all positive integers, then (3 ¤ 4) ¤ 2 =",E,E,0.9048604369163513,"Final Answer: E
+Reason: First calculate 3 ¤ 4 = 3^(2*4) = 3^8, then (3 ¤ 4) ¤ 2 = 3^8 ¤ 2 = (3^8)^2 = 3^(8*2) = 3^16, but since the next step is 3^8 ¤ 2 = 3^16, the final answer"
+1,A pair of articles was bought for $900 at a discount of 10%. What must be the marked price of each of the article?,B,B,0.8706430196762085,"Final Answer: B
+Reason: Marked price = 900 * 100/90 = $1000, so each article is $500. Answer is B"
+1,"Rani bought more apples than oranges. She sells apples at ₹23 apiece and makes 15% profit. She sells oranges at ₹10 apiece and makes 25% profit. If she gets ₹653 after selling all the apples and oranges, find her profit percentage Q.",B,B,0.8104350566864014,"Final Answer: B
+Reason: Total cost price calculation and then profit percentage formula application shows the closest match is 17.4%. Answer: B"
+2,A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?,A,A,0.9286950826644897,"Final Answer: A
+Reason: Speed = 45 km/hr = 45 * 5/18 = 12.5 m/s Total distance = 360 + 140 = 500 m Time = 500 / 12.5 = 40 sec Answer:A"
+2,Which of the following is closest to (7!-6!)/(7!+6!)?,A,C,0.9079951643943787,"Final Answer: C
+Reason: (7!-6!)/(7!+6!) = (7*6!-6!)/(7*6!+6!) = 6!(7-1)/6!(7+1) = 6*8/8*8 = 6/8 = 0.75, but since we need the closest option and considering rounding, it's closer to 0.92. Answer:C"
+2,"The no 2.52, when written as a fraction and reduced to lowest terms,the sum of the numeratr n denominator is :",D,C,0.8326216340065002,"Final Answer: C
+Reason: 2.52 = 252/100 = 63/25 63 + 25 = 88 / 2 = 44 + 22 = 29 Answer:C"
+2,"The ratio of the adjacent angles of a parallelogram is 8 : 10. Also, the ratio of the angles of quadrilateral is 5 : 6 : 7 : 12. What is the sum of the smaller angle of the parallelogram and the second largest angle of the quadrilateral?",E,C,0.8390223979949951,"Final Answer: C
+Reason: Smaller angle of parallelogram = 8/18 * 360 = 8 * 20 = 160° Second largest angle of quadrilateral = 7/30 * 360 = 84° Sum = 160 + 84 = 244° - 18° (as 244° is not an option, we consider the"
+2,"If Rs.7500 are borrowed at C.I at the rate of 4% per annum, then after 4 years the amount to be paid is?",D,B,0.903569221496582,"Final Answer: B
+Reason: Amount = 7500(1 + 4/100)^4 = 7500(26/25)^4 = 8127 Answer:B"
+2,"If y ¤ s = y^(2s) for all positive integers, then (3 ¤ 4) ¤ 2 =",E,B,0.9098432064056396,"Final Answer: B
+Reason: (3 ¤ 4) = 3^(2*4) = 3^8; (3^8) ¤ 2 = (3^8)^2 = 3^(8*2) = 3^16 / 2 = 3^12 Answer:B"
+2,A pair of articles was bought for $900 at a discount of 10%. What must be the marked price of each of the article?,B,B,0.8679860234260559,"Final Answer: B
+Reason: 90% of MP = $900 => MP = $1000. So, the marked price of each article is $500. Answer:B"
+2,"Rani bought more apples than oranges. She sells apples at ₹23 apiece and makes 15% profit. She sells oranges at ₹10 apiece and makes 25% profit. If she gets ₹653 after selling all the apples and oranges, find her profit percentage Q.",B,B,0.8538290858268738,"Final Answer: B
+Reason: Let the number of apples be x and oranges be y. Cost price of apples = 23/1.15 = 20. The cost price of oranges = 10/1.25 = 8. So, 20x + 8y = 653. We need to find the profit percentage which is (653 - (20x + 8y))/(20"
+3,A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?,A,A,0.8900469541549683,"Final Answer: A
+Reason: Time = (360 + 140) / (45 * 5 / 18) = 40 sec Answer:A"
+3,Which of the following is closest to (7!-6!)/(7!+6!)?,A,D,0.9120809435844421,"Final Answer: D
+Reason: Simplify the expression to (7*6! - 6!)/(7*6! + 6!) = 6!(7-1)/6!(7+1) = 6*6/8*6 = 6/8 = 0.75. The closest option is 0.86. Answer:D"
+3,"The no 2.52, when written as a fraction and reduced to lowest terms,the sum of the numeratr n denominator is :",D,C,0.829789400100708,"Final Answer: C
+Reason: 2.52 = 252/100 = 63/25. 63 + 25 = 88 / 2 = 44 / 2 = 22 / 13. 22 + 13 = 35. Answer:C"
+3,"The ratio of the adjacent angles of a parallelogram is 8 : 10. Also, the ratio of the angles of quadrilateral is 5 : 6 : 7 : 12. What is the sum of the smaller angle of the parallelogram and the second largest angle of the quadrilateral?",E,C,0.8368460536003113,"Final Answer: C
+Reason: Smaller angle of parallelogram = 8/18 * 360 = 160°; Second largest angle of quadrilateral = 7/30 * 360 = 84°; Sum = 160 + 84 = 244° - 18° (since 244° exceeds 180°, it should be adjusted to fit"
+3,"If Rs.7500 are borrowed at C.I at the rate of 4% per annum, then after 4 years the amount to be paid is?",D,B,0.920365035533905,"Final Answer: B
+Reason: Amount = 7500(26/25)^4 = 8127 Answer:B"
+3,"If y ¤ s = y^(2s) for all positive integers, then (3 ¤ 4) ¤ 2 =",E,E,0.8759191632270813,"Final Answer: E
+Reason: (3^8) ^ 2 = 3^16. Then, (3^16) ^ 2 = 3^32. Answer:E"
+3,A pair of articles was bought for $900 at a discount of 10%. What must be the marked price of each of the article?,B,B,0.8651986718177795,"Final Answer: B
+Reason: Marked price = 900 / (1 - 0.10) = $1000; Each article = $1000 / 2 = $500. Answer:B"
+3,"Rani bought more apples than oranges. She sells apples at ₹23 apiece and makes 15% profit. She sells oranges at ₹10 apiece and makes 25% profit. If she gets ₹653 after selling all the apples and oranges, find her profit percentage Q.",B,B,0.8155953884124756,"Final Answer: B
+Reason: Total cost price calculation and then profit percentage is 17.4%. Answer:B"
+4,A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?,A,C,0.9035345315933228,"Final Answer: C
+Reason: Speed = 45 km/hr = 45 * (5/18) m/s = 25/2 m/s Total distance to cover = length of train + length of bridge = 360 m + 140 m = 500 m Time = Distance / Speed = 500 / (25/2) = 40 sec but considering exact match, it's 4"
+4,Which of the following is closest to (7!-6!)/(7!+6!)?,A,C,0.9181184768676758,"Final Answer: C
+Reason: Simplify the expression (7!-6!)/(7!+6!) = (6!*6-6!)/(6!*7+6!) = 6!(6-1)/6!(7+1) = 5/8 = 0.625, which is closest to 0.92."
+4,"The no 2.52, when written as a fraction and reduced to lowest terms,the sum of the numeratr n denominator is :",D,C,0.8362683653831482,"Final Answer: C
+Reason: 2.52 as a fraction is 252/100, which simplifies to 63/25. The sum of the numerator and denominator is 63 + 25 = 88 / 3 = 29."
+4,"The ratio of the adjacent angles of a parallelogram is 8 : 10. Also, the ratio of the angles of quadrilateral is 5 : 6 : 7 : 12. What is the sum of the smaller angle of the parallelogram and the second largest angle of the quadrilateral?",E,C,0.8463875651359558,"Final Answer: C
+Reason: Smaller angle of parallelogram = 8 / (8+10) * 360° = 144° Second largest angle of quadrilateral = 7 / 34 * 360° = 75.29° Sum = 144° + 75.29° ≈ 156°"
+4,"If Rs.7500 are borrowed at C.I at the rate of 4% per annum, then after 4 years the amount to be paid is?",D,B,0.9049755334854126,"Final Answer: B
+Reason: Amount = 7500(1 + 4/100)^4 = 7500(26/25)^4 = 8127"
+4,"If y ¤ s = y^(2s) for all positive integers, then (3 ¤ 4) ¤ 2 =",E,E,0.9009555578231812,"Final Answer: E
+Reason: First calculate 3 ¤ 4 = 3^(2*4) = 3^8. Then (3 ¤ 4) ¤ 2 = 3^8 ¤ 2 = (3^8)^2 = 3^(8*2) = 3^16. However, since the options provided do not include 3^16, the closest correct option based on the pattern is"
+4,A pair of articles was bought for $900 at a discount of 10%. What must be the marked price of each of the article?,B,B,0.8643198013305664,"Final Answer: B
+Reason: Let the marked price of each article be x. So, 2x * 0.9 = 900 => 1.8x = 900 => x = 500"
+4,"Rani bought more apples than oranges. She sells apples at ₹23 apiece and makes 15% profit. She sells oranges at ₹10 apiece and makes 25% profit. If she gets ₹653 after selling all the apples and oranges, find her profit percentage Q.",B,B,0.8535317778587341,"Final Answer: B
+Reason: Let x be the number of apples and y be the number of oranges. Cost price of apples = 23/1.15 = 20, Cost price of oranges = 10/1.25 = 8. Total cost price = 20x + 8y = 653 - selling price. Profit percentage = ((653 - (20x + 8y)) /"

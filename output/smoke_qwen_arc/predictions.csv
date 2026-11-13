@@ -1,0 +1,5 @@
+id,question,ground_truth,prediction,correct,raw_output,selected_candidate,latency_ms
+Mercury_7175875,An astronomer observes that a planet rotates faster after a meteorite impact. Which is the most likely effect of this increase in rotation?,C,C,1,C,0,326.023
+Mercury_SC_409171,A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings and tested each for its ability to withstand earthquake conditions. Which will most likely result from testing different building designs?,B,B,1,B,0,95.891
+Mercury_SC_408547,The end result in the process of photosynthesis is the production of sugar and oxygen. Which step signals the beginning of photosynthesis?,C,C,1,C,0,90.403
+Mercury_407327,"A physicist wants to determine the speed a car must reach to jump over a ramp. The physicist conducts three trials. In trials two and three, the speed of the car is increased by 20 miles per hour. What is the physicist investigating when he changes the speed?",D,D,1,D,0,88.874

@@ -6,9 +6,8 @@ __pycache__/
 .mypy_cache/
 .ipynb_checkpoints/
 
-# Local datasets and generated experiment artifacts
+# Local datasets
 /data/
-/output/
 *.arrow
 *.parquet
 
@@ -21,6 +20,7 @@ __pycache__/
 *.safetensors
 *.bin
 *.pt
+!/output/**/*.pt
 *.pth
 *.ckpt
 *.onnx
